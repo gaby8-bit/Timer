@@ -30,8 +30,7 @@ The assigned addresses (in the MDX area) are:
 NOTE: for the simulation in Proteus for the clock generator, the frequency will be set to 1KHz and 
 the time constant that must be loaded into counter 0 will have the value CBh. These values ​​are required 
 for simulation due to the speed limitations of the simulation environment.
-
-
+This project includes a Proteus file with the schema simulation and code.
 
 
 
