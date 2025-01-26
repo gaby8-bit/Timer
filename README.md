@@ -14,17 +14,18 @@ of the OUT0 signal is T=20msec.
 The 8253 circuit, channel 0, will be programmed in mode 1. 
 The assigned addresses (in the MDX area) are:
 
-|   Circuit  |   Resource  |    Address   |
-|8255_0 (U4) |      PA     |     8000h    |
-|            |      PB     |     8001h    |
-|            |      PC     |     8002h    |
-|            |      CC     |     8003h    |
-|8255_1 (U5) |      PA     |     8004h    |
-|            |      PB     |     8005h    |
-|            |      PC     |     8006h    |
-|            |      CC     |     8007h    |
-|8253 (U6)   |   Canal 0   |     8008h    |
-|            |      CC     |     800Bh    |
+|   Circuit   | Resource | Address |
+|:-----------:|:--------:|:-------:|
+| 8255_0 (U4) |    PA    |  8000h  |
+|             |    PB    |  8001h  |
+|             |    PC    |  8002h  |
+|             |    CC    |  8003h  |
+| 8255_1 (U5) |    PA    |  8004h  |
+|             |    PB    |  8005h  |
+|             |    PC    |  8006h  |
+|             |    CC    |  8007h  |
+|  8253 (U6)  |  Canal 0 |  8008h  |
+|             |    CC    |  800Bh  |
 
 NOTE: for the simulation in Proteus for the clock generator, the frequency will be set to 1KHz and 
 the time constant that must be loaded into counter 0 will have the value CBh. These values ​​are required 
